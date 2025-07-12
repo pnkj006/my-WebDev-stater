@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .parent {
+            position: absolute;
+            background-color: rgba(128, 128, 128, 0.215);
+            display: inline-block;
+
+        }
+
+        .box {
+            background-color: white;
+            position: relative;
+            /* top: -52px; */
+            display: inline-block;
+            margin: 18px;
+            padding: 20px;
+            border: 2px solid blue;
+            border-radius: 20px;
+            width: 240px;
+            height: 418px;
+
+        }
+
+        .img1 {
+            border-radius: 20px;
+            display: flex;
+            align-content: center;
+            padding: 10px;
+            /* border: 2px solid black; */
+        }
+
+        .box2 {
+            color: rgb(128, 128, 128);
+            border: 1px solid rgb(168, 160, 160);
+            padding: 4px;
+            margin: 5px;
+            border-radius: 50px;
+        }
+
+
+        h1 {
+            margin: 10px;
+
+        }
+
+        .box3 {
+            min-height: 140px;
+            color: rgb(128, 128, 128);
+            margin: 10px;
+        }
+
+        .box4 {
+            color: rgb(88, 127, 255);
+            background-color: rgb(175, 236, 255);
+            /* border: 2px solid black; */
+            /* width: 70px; */
+            padding: 10px;
+            position: relative;
+            left: 70px;
+
+            /* margin: 10px; */
+            border-radius: 80px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- card.png is a file which contains a card Image. Write html and css code to design this card. Use #html -->
+    <img src="card.png" height="500" alt="">
+    <div class="parent">
+
+
+        <div class="box">
+
+
+            <img class="img1"
+                src="https://media.istockphoto.com/id/1065043970/photo/young-woman-sitting-on-edge-looks-out-at-view.jpg?s=612x612&w=0&k=20&c=zXlF6EJwCHDAtEJ_kh8zs6PqliCKZA75F93ffAkJURY="
+                width="220" alt="Lake view.img">
+
+            <span class="box2">Nature</span>
+            <span class="box2">Lake</span>
+            <h1>Lago di Braies</h1>
+            <div class="box3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At laborum minus porro maiores eaque dolorum
+                obcaecati, animi voluptatibus facere, exercitationem reiciendis, laudantium excepturi.
+            </div>
+            <span class="box4">Read More</span>
+        </div>
+    </div>
+</body>
+
+</html>
