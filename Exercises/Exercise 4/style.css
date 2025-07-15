@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+    --color: rgb(36, 36, 231);
+    --bgcolor: rgb(246, 171, 20);
+    --bodycolor: rgb(195, 140, 140);
+    --contentcolor: rgb(213, 251, 166);
+}
+
+body {
+
+    background-color: var(--bodycolor);
+}
+.content{
+    background-color: var(--contentcolor);
+}
+
+.box ul{
+    display: flex;
+}
+
+ul li{
+    font-size: 18px;
+    list-style: none;
+    padding: 30px 10vw;
+    background-color: var(--bgcolor);
+    color: var(--color);
+}
