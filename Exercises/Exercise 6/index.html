@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    nav {
+        position: relative;
+        left: 10%;
+        right: 10%;
+        height: 83px;
+        max-width: 80vw;
+        /* background-color: gray; */
+        display: flex;
+        /* align-items: end; */
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: flex;
+        align-items: end;
+        height: 100%;
+        min-width: 100px;
+        max-width: 242px;
+        /* background-color: yellowgreen; */
+    }
+
+    .logo img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    ul {
+        display: flex;
+        column-gap: 10px;
+        width: -webkit-fill-available;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    ul li {
+        list-style: none;
+        align-self: end;
+
+    }
+
+    .l {
+        align-items: end;
+        display: flex;
+        gap: 25px;
+    }
+
+    .buy {
+        align-self: end;
+        width: 130px;
+        height: 45px;
+    }
+
+    .b5 {
+        display: flex;
+        align-items: center;
+        align-self: end;
+        /* border: 1px solid black; */
+    }
+
+    search {
+        align-self: end;
+        display: flex;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+</style>
+
+<body>
+    <!-- Design this website's Navbar Using Flexbox
+     https://bit.ly/UltraEdit-CWH -->
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Screenshot 2025-07-20 100558.png" alt="">
+            </div>
+            <ul>
+                <li class="b1">Products</li>
+                <li class="b2">Pricing</li>
+                <li class="b3">Resources</li>
+                <li class="b4">Our Company</li>
+            </ul>
+
+            <div class="l">
+                <button class="buy">Buy Now</button>
+                <div class="b5">
+                    <div class="img1">
+                        <img src="Screenshot 2025-07-20 095529.png" alt="">
+                    </div>
+                    <div class="lang">English</div>
+                </div>
+                <search>
+                    <img src="Screenshot 2025-07-20 095546.png" class="img2" alt="">
+
+                </search>
+            </div>
+        </nav>
+    </header>
+
+</body>
+
+</html>

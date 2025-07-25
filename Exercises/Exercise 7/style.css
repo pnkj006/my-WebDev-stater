@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width:100vw;
+    display: grid;
+    justify-items: center;
+    /* grid-template-columns: repeat(1,1fr); */
+}
+
+nav {
+    padding: 15px;
+    height: 83px;
+    max-width: 100vw;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* .logo {
+    display: flex;
+    align-items: end;
+    height: 100%;
+    min-width: 100px;
+    max-width: 242px;
+    background-color: yellowgreen;
+} */
+
+.logo  {
+    max-width: 100%;
+    max-height: 100%;
+}
+.space {
+    width: 143px;
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 30px;
+}
+
+ul li {
+    list-style: none;
+    align-self: end;
+
+}
+
+.l {
+    align-items: end;
+    display: flex;
+    gap: 25px;
+}
+
+.buy {
+    align-self: end;
+    width: 130px;
+    height: 45px;
+}
+
+.b5 {
+    display: flex;
+    align-items: center;
+    align-self: end;
+    /* border: 1px solid black; */
+}
+
+.search {
+    align-self: end;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.main {
+    display: grid;
+    width: 60%;
+    /* height: 40vh; */
+    grid-template-rows: repeat(4, 95px);
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 40px;
+    /* background-color: blanchedalmond; */
+}
+
+.main .top_line img {
+    height: 30px;
+}
+
+.main .top_line .big {
+    font-size: 50px;
+    /* word-spacing: 10px; */
+    padding: 0px 10px;
+}
+
+#ultraedit {
+    font-weight: bolder;
+}
+
+.second_line {
+    font-size: 25px;
+}
+
+.third_line button {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(255, 239, 239);
+    background-color: rgb(36, 160, 237);
+}
+
+.fourth_line {
+    display: grid; 
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-items: left;
+    justify-self: left;
+}
+
+.fourth_line img {
+    width: 60px;
+}
+
+.fourth_line .fsize {
+    font-size: 30px;
+}
+
+.fourth_line #img1 {
+    display: inline-block;
+    width: 60px;
+}
+.gap {
+    display: inline-block;
+    width: 12px;
+}
+#version {
+    position: relative;
+    top: 5px;
+}
+
+.boxes {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 290px);
+    gap: 20px;
+    margin-top: 10px;
+    
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5,1fr);
+    background-color: grey;
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+    overflow-wrap:  anywhere; 
+    justify-items: center;
+    align-items: center;
+}
